@@ -14,7 +14,7 @@ function template(diositodamefuerza) {
             <div class="col-3 d-flex justify-content-center my-3">            
                 <div class="card card-encima p-4 bg-mono" style="width: 18rem;" onclick="llenadoSuper(${diositodamefuerza.id})">
                     <img src="${diositodamefuerza.images.sm}"  class=" card-img-top" alt="${diositodamefuerza.name}">
-                    <div class="card-body text-white">
+                    <div class="card-body text-black">
                         <h5 class="card-title">${diositodamefuerza.name}</h5>
                         <p class="card-text">Race: ${diositodamefuerza.appearance.race}</p>
                         <p class="card-text">Strength: ${diositodamefuerza.powerstats.strength}</p>
